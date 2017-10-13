@@ -1,0 +1,178 @@
+/*
+Theme Name: Little Twenty
+Description: Thème enfant de Twenty Eleven
+Author: CreativeJuiz
+Author URI: http://creativejuiz.com
+Version: 1.0.0
+Template: twentyseventeen
+*/
+@import url("../twentyseventeen/style.css");
+@import url(//fonts.googleapis.com/css?family=Anton:n,b,i,bi|Basic:n,b,i,bi|Caudex:n,b,i,bi|Chelsea+Market:n,b,i,bi|Corben:n,b,i,bi|EB+Garamond:n,b,i,bi|Enriqueta:n,b,i,bi|Forum:n,b,i,bi|Fredericka+the+Great:n,b,i,bi|Jockey+One:n,b,i,bi|Josefin+Slab:n,b,i,bi|Jura:n,b,i,bi|Kelly+Slab:n,b,i,bi|Marck+Script:n,b,i,bi|Lobster:n,b,i,bi|Mr+De+Haviland:n,b,i,bi|Niconne:n,b,i,bi|Noticia+Text:n,b,i,bi|Overlock:n,b,i,bi|Patrick+Hand:n,b,i,bi|Play:n,b,i,bi|Sarina:n,b,i,bi|Signika:n,b,i,bi|Spinnaker:n,b,i,bi|Monoton:n,b,i,bi|Sacramento:n,b,i,bi|Cookie:n,b,i,bi|Raleway:n,b,i,bi|Open+Sans+Condensed:300:n,b,i,bi|Amatic+SC:n,b,i,bi|Cinzel:n,b,i,bi|Sail:n,b,i,bi|Playfair+Display:n,b,i,bi|Libre+Baskerville:n,b,i,bi|&subset=latin-ext,cyrillic,japanese,korean,arabic,hebrew,latin);
+@import url(//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C300italic%2C400italic%2C600italic%2C700italic%2C800italic%7COregano%3A400&subset=latin&ver=1464026653);
+
+body {
+    font-family: overlock, sans-serif;
+}
+
+.entry-title {
+    text-align: center;
+}
+
+.page .panel-content .entry-title,
+.page-title,
+.single-post .entry-title,
+.page .entry-title,
+body.page:not(.twentyseventeen-front-page) .entry-title {
+    font-family: Oregano, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.testimonial-age:after {
+    content: ' ans.';
+}
+
+#testimonial-form {
+    display: none;
+}
+
+#testimonial-form .submit {
+    position: relative;
+}
+
+#btn-temoignage, #testimonial-close-btn {
+    line-height: 1;
+    font-size: 0.875rem;
+}
+
+#testimonial-close-btn {
+    position: absolute;
+    right: 0;
+    min-width: 212px;
+}
+
+.wpcf7-form .wpcf7-submit {
+    margin-top: 1.5em;
+}
+
+.header-widget-1 {
+    float: right;
+}
+
+.header-widget-1 .custom-html-widget {
+    line-height: 1.25;
+    font-size: 2.25rem;
+}
+
+.header-widget-1 .custom-html-widget a {
+    color: #fff;
+    box-shadow: none;
+    font-weight: bold;
+}
+
+#top-menu li:last-child {
+    display: none;
+}
+
+.site-navigation-fixed #top-menu li:last-child {
+    display: inline-block;
+    float: right;
+}
+
+.site-content {
+    padding-top: 1.5em;
+}
+
+.site-footer .widget {
+    padding-bottom:0;
+}
+
+.site-footer .widget-column.footer-widget-1 {
+    width: 100%
+}
+
+.site-footer .widget-column.footer-widget-1 section {
+    display: inline-block;
+    float: left;
+    margin-right: 3%;
+    width: 30%;
+}
+
+
+.site-footer .widget-column.footer-widget-1 section h2 {
+    font-size: 0.9em;
+    border-bottom: 1px solid #222;
+}
+
+.site-footer .widget-column.footer-widget-2 {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#secondary .callme-form .control {
+    position: relative
+}
+
+#secondary .callme-form [class^="hc-icon-"] {
+    font-size: 24px;
+}
+
+.callme-form :invalid {
+    box-shadow: none;
+}
+
+.errors {
+    list-style: none;
+}
+
+.bg-success {
+    background-color: #dff0d8;
+    padding: 15px;
+}
+
+.text-success {
+    color: #3c763d;
+}
+
+.bg-danger {
+    background-color: #f2dede;
+    padding: 15px;
+}
+
+.text-error {
+    color: #a94442;
+}
+
+@media screen and (max-width: 550px) {
+    #testimonial-close-btn, #btn-temoignage {
+        position: relative;
+        min-width: unset;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #testimonial-form .submit label, #testimonial-form .submit input {
+        width: 100%;
+    }
+
+    .site-footer .widget-column.footer-widget-1 section {
+        width: 44%;
+    }
+
+    .site-footer .widget-column.footer-widget-1 section:last-child {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #secondary {
+        display: none;
+    }
+    .site-footer .widget-column.footer-widget-1 section {
+        width: 100%;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "magi-web/little-twenty",
+  "description": "WordPress theme based on twentyseventeen",
+  "keywords": ["wordpress", "theme"],
+  "homepage": "https://github.com/magi-web/little-twenty-wp-theme",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mathieu GIRARD",
+      "email": "mgirard.dev@gmail.com",
+      "homepage": "https://github.com/magi-web/little-twenty-wp-theme"
+    }
+  ],
+  "type": "wordpress-theme",
+  "require": {
+    "php": ">=5.3.2",
+    "composer/installers": "v1.0.6"
+  }
+}
